@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dodir : MonoBehaviour {
-
-	public Cunj cunj;
+public class Cunj : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -16,9 +14,7 @@ public class Dodir : MonoBehaviour {
 		
 	}
 
-	void OnTriggerEnter (Collider otherCollider) {
-		if (otherCollider.tag == "Pod") {
-			cunj.OnTouchPod ();
-		}
+	public void OnTouchPod() {
+		Destroy (gameObject);
 	}
 }
