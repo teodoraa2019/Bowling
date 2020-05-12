@@ -15,6 +15,6 @@ public class Cunj : MonoBehaviour {
 	}
 
 	public void OnTouchPod() {
-		Destroy (gameObject);
+		Destroy(gameObject);
 	}
 }

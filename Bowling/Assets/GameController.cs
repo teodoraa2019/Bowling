@@ -16,7 +16,7 @@ public class GameController : MonoBehaviour {
 	void Start () {
 		
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		infoText.text = "Baci Kuglu!";
@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour {
 				infoText.text = "Tvoj rezultat: " + score;
 			}
 			if (gameTimer <= -3f) {
-				SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			}
 		}
 	}
