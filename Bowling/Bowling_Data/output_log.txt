@@ -19,7 +19,7 @@ Platform assembly: C:\Users\vodop\Desktop\git - projekti\Bowling\Bowling\Bowling
 Loading C:\Users\vodop\Desktop\git - projekti\Bowling\Bowling\Bowling_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\vodop\Desktop\git - projekti\Bowling\Bowling\Bowling_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
 Loading C:\Users\vodop\Desktop\git - projekti\Bowling\Bowling\Bowling_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
-- Completed reload, in  0.051 seconds
+- Completed reload, in  0.018 seconds
 Platform assembly: C:\Users\vodop\Desktop\git - projekti\Bowling\Bowling\Bowling_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\vodop\Desktop\git - projekti\Bowling\Bowling\Bowling_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 120Hz; virtual: 1920x1080 at 0,0
@@ -27,7 +27,7 @@ desktop: 1920x1080 120Hz; virtual: 1920x1080 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.386600 ms
+UnloadTime: 2.481100 ms
 InvalidOperationException: Unsupported device.
   at Gvr.Internal.BaseVRDevice.GetDevice () [0x00000] in <filename unknown>:0 
   at GvrViewer.InitDevice () [0x00000] in <filename unknown>:0 
@@ -51,10 +51,10 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 188c -> priority: 1 
-  Thread -> id: 307c -> priority: 1 
-  Thread -> id: c80 -> priority: 1 
-  Thread -> id: 3270 -> priority: 1 
+  Thread -> id: 1758 -> priority: 1 
+  Thread -> id: 409c -> priority: 1 
+  Thread -> id: 344 -> priority: 1 
+  Thread -> id: 3448 -> priority: 1 
 NullReferenceException: Object reference not set to an instance of an object
   at GvrViewer.OnApplicationFocus (Boolean focus) [0x00000] in <filename unknown>:0 
  
